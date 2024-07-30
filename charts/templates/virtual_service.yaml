@@ -87,7 +87,7 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: mock-pfis-virtualservice6
+  name: mock-pfis-virtualservice-issuer
 spec:
   hosts:
     - "{{ .Values.virtualService.issuerhost }}"
